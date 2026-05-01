@@ -1,0 +1,26 @@
+/* VARIABLES START */
+
+:root{
+
+/* MAIN COLORS */
+--color-bg: #050816;
+--color-header: rgba(40, 39, 48, 0.88);
+--color-white: #ffffff;
+--color-dark: #111111;
+--color-muted: #d6dcf0;
+--color-border: rgba(255, 255, 255, 0.14);
+
+/* ACCENT */
+--color-accent: #7b1fff;
+--color-accent-hover: #6a16e6;
+
+/* SHADOWS */
+--shadow-header: 0 8px 30px rgba(0, 0, 0, 0.18);
+
+/* RADIUS */
+--radius-pill: 999px;
+
+/* LAYOUT */
+--container-width: 1280px;
+
+}
