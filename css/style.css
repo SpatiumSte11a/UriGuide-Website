@@ -714,4 +714,79 @@ ul{
     font-size: 16px;
     line-height: 1.65;
 }
+
+/* SUPPORT SECTION START */
+.support-section{
+    padding: 105px 0 95px;
+    background: var(--color-bg);
+}
+
+.support-container{
+    display: grid;
+    grid-template-columns: 1fr 0.85fr;
+    align-items: center;
+    gap: 70px;
+}
+
+.support-content{
+    max-width: 680px;
+}
+/* SUPPORT SECTION END */
+
+
+/* SUPPORT CARD START */
+.support-card{
+    padding: 24px;
+
+    background: var(--color-support-card);
+    border: 1px solid var(--color-section-border);
+    border-radius: 28px;
+
+    box-shadow: 0 24px 70px rgba(0, 0, 0, 0.28);
+}
+
+.support-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+    padding: 20px 22px;
+
+    background: var(--color-support-row);
+    border-radius: 18px;
+
+    transition:
+        transform 0.35s ease,
+        background-color 0.35s ease,
+        box-shadow 0.35s ease;
+}
+
+.support-row + .support-row{
+    margin-top: 16px;
+}
+
+.support-row:hover{
+    transform: translateY(-3px);
+    background: #342f42;
+    box-shadow: 0 14px 30px rgba(139, 61, 255, 0.16);
+}
+
+.support-row p{
+    color: var(--color-white);
+
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.support-row span{
+    color: var(--color-accent-light);
+
+    font-size: 15px;
+    font-weight: 800;
+}
+/* SUPPORT CARD END */
+
+
+
 /* HOW STEPS END */

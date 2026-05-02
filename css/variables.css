@@ -28,6 +28,10 @@
 --color-how-card: rgba(39, 22, 84, 0.72);
 --color-how-border: rgba(255, 255, 255, 0.08);
 
+/* SUPPORT COLORS */
+--color-support-card: #111111;
+--color-support-row: #2b2932;
+
 /* HERO COLORS */
 --color-hero-badge: rgba(10, 10, 15, 0.72);
 --color-hero-line: rgba(255, 255, 255, 0.18);
