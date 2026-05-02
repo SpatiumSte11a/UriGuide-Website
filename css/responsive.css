@@ -187,6 +187,59 @@
 }
 /* WHY SECTION RESPONSIVE END */
 
+/* TOURS RESPONSIVE START */
+@media (max-width: 900px){
+    .tours-section{
+        padding: 84px 0 76px;
+    }
+
+    .tours-header{
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .tour-cards{
+        grid-template-columns: 1fr;
+        gap: 22px;
+    }
+
+    .tour-card{
+        min-height: auto;
+    }
+}
+
+@media (max-width: 760px){
+    .tours-section{
+        padding: 72px 0 64px;
+    }
+
+    .tour-price{
+        font-size: 32px;
+    }
+
+    .tour-card h3{
+        font-size: 22px;
+    }
+
+    .tour-description{
+        font-size: 15px;
+    }
+}
+/* TOURS RESPONSIVE END */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* RESPONSIVE END */
 
