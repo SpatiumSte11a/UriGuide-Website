@@ -228,7 +228,44 @@
 /* TOURS RESPONSIVE END */
 
 
+/* HOW SECTION RESPONSIVE START */
+@media (max-width: 900px){
+    .how-section{
+        padding: 90px 0 78px;
+    }
 
+    .how-steps{
+        grid-template-columns: 1fr;
+        gap: 22px;
+    }
+
+    .how-step{
+        min-height: auto;
+    }
+}
+
+@media (max-width: 760px){
+    .how-section{
+        padding: 76px 0 64px;
+    }
+
+    .how-step{
+        padding: 24px;
+    }
+
+    .step-number{
+        margin-bottom: 18px;
+    }
+
+    .how-step h3{
+        font-size: 20px;
+    }
+
+    .how-step p{
+        font-size: 15px;
+    }
+}
+/* HOW SECTION RESPONSIVE END */
 
 
 
