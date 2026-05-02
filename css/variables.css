@@ -10,6 +10,14 @@
 --color-muted: #d6dcf0;
 --color-border: rgba(255, 255, 255, 0.14);
 
+/* TEXT COLORS */
+--color-text-soft: #cbd5e1;
+--color-text-light: #f8fafc;
+
+/* HERO COLORS */
+--color-hero-badge: rgba(10, 10, 15, 0.72);
+--color-hero-line: rgba(255, 255, 255, 0.18);
+
 /* ACCENT */
 --color-accent: #8b3dff;
 --color-accent-hover: #9b5cff;
