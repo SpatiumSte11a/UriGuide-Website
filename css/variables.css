@@ -5,6 +5,7 @@
 /* MAIN COLORS */
 --color-bg: #050816;
 --color-header: rgba(40, 39, 48, 0.88);
+/* --color-header: rgba(40, 39, 48, 0.74); */
 --color-white: #ffffff;
 --color-dark: #111111;
 --color-muted: #d6dcf0;
@@ -24,6 +25,11 @@
 /* HERO COLORS */
 --color-hero-badge: rgba(10, 10, 15, 0.72);
 --color-hero-line: rgba(255, 255, 255, 0.18);
+
+/* SECTION COLORS */
+--color-section-dark: #111111;
+--color-section-card: #2b2932;
+--color-section-border: rgba(255, 255, 255, 0.18);
 
 /* ACCENT */
 --color-accent: #8b3dff;

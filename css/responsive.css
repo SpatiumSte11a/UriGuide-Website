@@ -135,6 +135,57 @@
 }
 /* HERO CARD RESPONSIVE END */
 
+/* WHY SECTION RESPONSIVE START */
+@media (max-width: 900px){
+    .why-section{
+        padding: 90px 0 74px;
+    }
+
+    .why-cards{
+        grid-template-columns: 1fr;
+        gap: 22px;
+    }
+
+    .section-title{
+        font-size: 32px;
+    }
+
+    .section-text{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 760px){
+    .why-section{
+        padding: 76px 0 64px;
+    }
+
+    .section-label{
+        font-size: 12px;
+    }
+
+    .section-title{
+        font-size: 28px;
+    }
+
+    .section-text{
+        font-size: 16px;
+    }
+
+    .why-card{
+        min-height: auto;
+        padding: 24px;
+    }
+
+    .why-card h3{
+        font-size: 20px;
+    }
+
+    .why-card p{
+        font-size: 15px;
+    }
+}
+/* WHY SECTION RESPONSIVE END */
 
 
 /* RESPONSIVE END */
