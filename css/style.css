@@ -128,8 +128,10 @@ ul{
     min-height: calc(100vh - 102px);
     padding: 105px 0 80px;
 
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 0.85fr;
     align-items: center;
+    gap: 90px;
 }
 
 .hero-content {
@@ -279,4 +281,121 @@ ul{
 }
 /* HERO STATS END */
 
+/* HERO RIGHT CARD START */
+.hero-card-wrapper {
+    position: relative;
+}
 
+/* purple glow behind card */
+.hero-card-wrapper::before {
+    content: "";
+    position: absolute;
+
+    inset: -45px;
+    border-radius: 40px;
+
+    background: radial-gradient(circle, var(--color-card-glow), transparent 68%);
+    filter: blur(24px);
+    opacity: 1;
+}
+
+/* main black card */
+.experience-card {
+    position: relative;
+
+    padding: 22px;
+
+    background: var(--color-card-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 28px;
+
+    box-shadow: 0 24px 70px rgba(0, 0, 0, 0.42);
+}
+
+/* purple top part */
+.experience-card-top {
+    padding: 30px 34px;
+
+    border-radius: 22px;
+
+    background: linear-gradient(
+        135deg,
+        var(--color-card-top-start),
+        var(--color-card-top-end)
+    );
+
+    color: var(--color-white);
+}
+
+/* small card label */
+.experience-card-top p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* card title */
+.experience-card-top h2 {
+    margin-top: 16px;
+
+    font-size: 34px;
+    line-height: 1.1;
+    font-weight: 900;
+}
+
+/* card text */
+.experience-card-top span {
+    display: block;
+
+    margin-top: 20px;
+
+    font-size: 16px;
+    line-height: 1.65;
+    color: var(--color-text-soft);
+}
+
+/* feature rows wrapper */
+.feature-list {
+    display: grid;
+    gap: 14px;
+
+    margin-top: 22px;
+}
+
+/* one feature row */
+.feature-item {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+    min-height: 58px;
+    padding: 0 18px;
+
+    background: var(--color-card-row);
+    border-radius: 14px;
+
+    color: var(--color-text-soft);
+
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* purple check icon */
+.check-icon {
+    width: 26px;
+    height: 26px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+
+    border-radius: 50%;
+
+    background: var(--color-accent);
+    color: var(--color-white);
+
+    font-size: 14px;
+    font-weight: 900;
+}
+/* HERO RIGHT CARD END */

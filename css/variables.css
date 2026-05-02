@@ -10,6 +10,13 @@
 --color-muted: #d6dcf0;
 --color-border: rgba(255, 255, 255, 0.14);
 
+/* CARD COLORS */
+--color-card-bg: #111111;
+--color-card-row: #2d2b35;
+--color-card-top-start: #7b1fff;
+--color-card-top-end: #120b2d;
+--color-card-glow: rgba(139, 61, 255, 0.22);
+
 /* TEXT COLORS */
 --color-text-soft: #cbd5e1;
 --color-text-light: #f8fafc;
