@@ -11,8 +11,9 @@
 --color-border: rgba(255, 255, 255, 0.14);
 
 /* ACCENT */
---color-accent: #7b1fff;
---color-accent-hover: #6a16e6;
+--color-accent: #8b3dff;
+--color-accent-hover: #9b5cff;
+--color-accent-light: #c4a3ff;
 
 /* SHADOWS */
 --shadow-header: 0 8px 30px rgba(0, 0, 0, 0.18);
