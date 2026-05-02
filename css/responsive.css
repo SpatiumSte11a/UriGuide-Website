@@ -340,10 +340,30 @@
 }
 /* CTA RESPONSIVE END */
 
+/* FOOTER RESPONSIVE START */
+@media (max-width: 900px){
+    .footer-container{
+        grid-template-columns: 1fr;
+        gap: 34px;
+    }
+}
 
+@media (max-width: 760px){
+    .site-footer{
+        padding: 46px 0 44px;
+    }
 
+    .footer-brand h3{
+        font-size: 20px;
+    }
 
-/* HOW SECTION RESPONSIVE END */
+    .footer-brand p,
+    .footer-mvp p,
+    .footer-links a{
+        font-size: 14px;
+    }
+}
+/* FOOTER RESPONSIVE END */
 
 
 
